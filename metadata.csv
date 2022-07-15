@@ -1,0 +1,26 @@
+Label_Text,Create_Label,Widget,Frame,Notebook,Variable_name,Column,Row,Sticky,Colspan,Width,Height,State,Font,Headers,Header_Width,Widget_Length
+,FALSE,frame,,,checkbox_frame,0,0,nsew,10,,,,,,,
+,FALSE,frame,,,main_frame,0,1,nsew,10,,,,,,,
+,FALSE,frame,,,button_frame,0,2,nsew,10,,,,,,,
+,FALSE,frame,,,notebook_frame,0,3,nsew,10,,,,,,,
+,FALSE,frame,,,contact_frame,0,0,,10,,,,,,,
+,FALSE,frame,,,product_frame,0,0,,10,,,,,,,
+,FALSE,notebook,notebook_frame,,grid_notebook,1,1,nsew,10,,,,,,,
+Products,FALSE,notebook_tab,product_frame,grid_notebook,,,,,,,,,,,,
+Contacts,FALSE,notebook_tab,contact_frame,grid_notebook,,,,,,,,,,,,
+Active,FALSE,checkbutton,checkbox_frame,,active_checkbutton,0,0,w,1,,,normal,Helvetica 9 bold,,,
+Auto Pay,FALSE,checkbutton,checkbox_frame,,auto_pay_checkbutton,1,0,w,1,,,normal,Helvetica 9 bold,,,
+Pay Cycle,TRUE,combobox,checkbox_frame,,pay_cycle_combobox,3,0,w,2,20,,normal,Helvetica 9 bold,,,20
+Customer,TRUE,combobox,main_frame,,customer_combobox,1,1,w,3,40,,normal,Helvetica 9 bold,,,200
+Address,FALSE,label,main_frame,,address_label,0,2,w,1,,,,Helvetica 10 bold,,,
+Customer No,TRUE,entry,main_frame,,customerno_entry,4,1,w,1,10,,normal,Helvetica 9 bold,,,10
+Address 1,TRUE,entry,main_frame,,address1_entry,1,3,w,3,50,,normal,Helvetica 9 bold,,,150
+Address 2,TRUE,entry,main_frame,,address2_entry,1,4,w,3,50,,normal,Helvetica 9 bold,,,150
+City,TRUE,entry,main_frame,,city_entry,1,5,w,1,25,,normal,Helvetica 9 bold,,,100
+State,TRUE,combobox,main_frame,,state_combobox,3,5,w,1,25,,normal,Helvetica 9 bold,,,20
+Zip Code,TRUE,entry,main_frame,,zip_entry,5,5,w,1,15,,normal,Helvetica 9 bold,,,16
+,FALSE,treeview,contact_frame,,contact_tree,0,0,nsew,1,150,15,,Helvetica 9 bold,"ContactID,Active,PrimaryContact,Title,First,Last,Email,Phone","75,75,100,125,100,100,250,125",
+,FALSE,treeview,product_frame,,product_tree,0,0,nsew,1,150,15,,Helvetica 9 bold,"ID,Product,QTY,Expiration,SKU","75,175,75,175,125",
+Add,FALSE,button,button_frame,,add_button,0,0,nsew,1,,,,,,,
+Edit,FALSE,button,button_frame,,edit_button,1,0,nsew,1,,,,,,,
+Save,FALSE,button,button_frame,,save_button,2,0,nsew,1,,,,,,,

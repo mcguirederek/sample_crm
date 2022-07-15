@@ -1,0 +1,8 @@
+Label_Text,Create_Label,Widget,Frame,Notebook,Variable_name,Column,Row,Sticky,Colspan,Width,Height,State,Font,Headers,Header_Width,Widget_Length
+,FALSE,frame,,,product_frame,0,0,nsew,10,,,,,,,
+Product ID,TRUE,entry,product_frame,,productid_entry,1,1,nsew,3,50,,,Helvetica 9 bold,,,10
+Product,TRUE,entry,product_frame,,product_entry,1,2,nsew,3,50,,,Helvetica 9 bold,,,100
+QTY,TRUE,entry,product_frame,,product_qty,1,3,nsew,3,50,,,Helvetica 9 bold,,,10
+Expiration,TRUE,entry,product_frame,,product_expiration,1,4,nsew,3,50,,,Helvetica 9 bold,,,50
+SKU,TRUE,entry,product_frame,,product_sku,1,5,nsew,3,50,,,Helvetica 9 bold,,,
+Save,FALSE,button,product_frame,,product_save_button,1,8,nsew,3,,,,,,,

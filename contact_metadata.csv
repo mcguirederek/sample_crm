@@ -1,0 +1,11 @@
+Label_Text,Create_Label,Widget,Frame,Notebook,Variable_name,Column,Row,Sticky,Colspan,Width,Height,State,Font,Headers,Header_Width,Widget_Length
+,FALSE,frame,,,contact_frame,0,0,nsew,10,,,,,,,
+Active,FALSE,checkbutton,contact_frame,,contact_active_checkbox,1,1,w,1,,,normal,Helvetica 9 bold,,,
+Primary,FALSE,checkbutton,contact_frame,,contact_primary_checkbox,2,1,w,1,,,normal,Helvetica 9 bold,,,
+Contact ID,TRUE,entry,contact_frame,,contact_id_entry,1,2,nsew,3,50,,,Helvetica 9 bold,,,10
+Title,TRUE,entry,contact_frame,,contact_title_entry,1,3,nsew,3,50,,,Helvetica 9 bold,,,50
+First Name,TRUE,entry,contact_frame,,contact_firstname_entry,1,4,nsew,3,50,,,Helvetica 9 bold,,,50
+Last Name,TRUE,entry,contact_frame,,contact_lastname_entry,1,5,nsew,3,50,,,Helvetica 9 bold,,,50
+Email,TRUE,entry,contact_frame,,contact_email_entry,1,6,nsew,3,50,,,Helvetica 9 bold,,,100
+Phone,TRUE,entry,contact_frame,,contact_phone_entry,1,7,nsew,3,50,,,Helvetica 9 bold,,,50
+Save,FALSE,button,contact_frame,,contact_save_button,1,8,nsew,3,,,,,,,
